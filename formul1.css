@@ -1,0 +1,116 @@
+body{
+     margin: 0;
+    padding: 0; 
+    background-image: url(images/img1.jpg); 
+     background-size: cover; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 80px;   
+}
+
+
+
+.container{
+    position: relative; 
+    display: flex; 
+    width: 50%;
+    height: 500px;
+    background-color: #ffffff;
+    border: 2px solid rgb(253, 253, 253);
+    margin:  0 auto;
+     padding: 10px 10px 10px 10px; 
+
+        }   
+        .title h1{
+
+    /* padding: 0 0 2px; */
+     font-weight: bold;
+    font-size: 20px;
+    color:#111111;
+    text-transform: uppercase; 
+    text-align: center;
+    margin-bottom: 20px;}
+              
+
+.container .left{
+    float: left;
+    width: 50%;
+    height: 500px; 
+    background: url(images/img1.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+    
+}
+ .container .right { 
+     float: right;
+    width: 50%;
+    height: 500px;
+    box-sizing: border-box;
+    /* position: relative;
+    left: 40px;  */
+     padding: 36px 45px 0 45px; 
+     } 
+      .container .right input{
+         position: relative;
+        left: 10px;   }  
+
+ .right input[type="text"],  .right input[type="password"], .right input[type="sexe"], .right input[type="email"]
+{
+    border: none;
+    border-bottom: 1px solid #111111;
+    outline: none;
+     height: 25px; 
+    width: 75% ;
+    padding: 10px; 
+    background-color:transparent;
+    margin-right: 0px;
+   
+    
+}
+
+.right input[type="submit"]{
+    height:40px ;
+    color: #fff;
+    background: #383636;
+     padding: 10px 30px 30px 30px;  
+    text-transform: uppercase;
+    text-align: center;
+     margin: 0 auto; 
+    margin: 50px; 
+
+    /* border-radius: 10px; */
+     box-shadow: 0px 15px 40px rgb(249, 248, 250); 
+
+    }
+.right input[type="submit"]:hover {
+    color: #ff8800;
+}
+/* .input[type="submit"]{
+
+} */
+ .name{
+    display: flex;
+    gap: 20px;
+    width: 85%;
+ }
+ 
+@media screen and (max-width:767px) {
+    .container{
+        display: block;
+         height: 1000px; 
+    }
+    .title h1{
+        font-size: 18px;
+}
+.container .left
+{
+width:100%;
+}
+.container .right{
+    width: 100%;
+    padding-left: 40px 0  30px;
+}
+.right input[type="submit"]{
+    margin-top: 60px;
+}
+
+}

@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 80px;
+    
+}
+.container{
+     display: flex; 
+     justify-content: space-between;
+     width: 65%;
+     height: 500px;
+     margin: auto;
+
+}
+.container .left{
+    height: 500px;
+    width: 60%;
+    float: left;
+    background: url(images/image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.container .right{
+    float: right;
+    width: 50%;
+    height: 500px;
+    background-color: rgb(34, 25, 25);
+    padding-left: 30px;
+    
+    
+}
+.right h1{
+    text-transform: capitalize;
+    font-size: 20px;
+    margin: auto;
+    color: #FFF;
+    text-align: center;
+     margin:20px; 
+     padding-right: 25px;
+
+}
+/* .right .name{
+    color: #64513c;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 20px;
+    position: relative;
+    top: 25px;
+
+} */
+.right input[type="text"], .right input[type="number"], .right input[type="time"]{
+    border: none;
+    width:260px;
+    border-bottom: 1px solid rgb(238, 231, 231);
+    background-color:transparent; 
+    outline: none;
+    margin: 15px;
+    color:#FFF;
+
+}
+/* .right .name {
+    width: 250px;
+    color: #995613d3;
+    background-color:transparent;
+    border-bottom: 1px  solid rgba(189, 115, 18, 0.808);
+    border: none;
+    outline: none; */
+
+
+
+
+
+
+.bouton {
+     display: flex;
+     gap: 20px; 
+     align-items: center;
+     position: relative;
+    left: 20px; 
+    color:#504839
+    
+}
+.bouton1,.bouton3, .bouton4, .bouton5{
+    width:30px ;
+    height: 30px;
+    border: 1px solid rgb(255, 255, 255);  
+    border-radius: 50%;
+}
+
+    .bouton2{
+        width:100px ;
+        height: 35px;
+        color: #FFF;
+        border-radius: 50%;
+        border: 1px solid #3b2d2d;
+        background-color: rgb(59, 45, 45);
+        padding-left: 10px;
+        padding-right: 10px;
+
+    } 
+/* paragraph */
+    .p1{
+        font-size: 14px;
+        color: #FFF;
+        position: relative;
+        left: 20px;
+    }
+    .p2{
+        color:  rgb(194, 172, 141);
+        font-size: 14px;
+        position: relative;
+        left: 20px;
+    }
+    /* but */
+    .but{
+         display: flex;
+        flex-wrap: nowrap; 
+        background-color: rgb(102, 82, 61);
+        border-radius: 50px 50px 50px 50px;
+        width: 100px;
+        height: 35px;
+         /* padding: 4px;   */
+         padding-left: 8px;
+    
+    } 
+    .but p{
+        color: black;
+        text-align: center;
+        position: relative;
+         bottom: 15px;
+         margin: 20px;
+    
+    }
+
+
+.right input[type="submit"]{
+    font-size: 16px;
+    color: #FFF;
+    background-color: rgb(209, 169, 126);
+    border: 1px solid #d1a97e;
+    text-align: center;
+    padding: 10px 30px 10px 20px;
+    margin:20px ;
+    position: relative;
+    left: 5px;
+    
+} 
+.right i{
+    color: #FFF;
+    font-size: 16px;
+    margin-right: 25px;
+}

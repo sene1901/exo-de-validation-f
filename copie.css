@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto' 'sans-serif';
+    background: -webkit-linear-gradient(top left,hsl(325, 26%, 48%),#97446f,hsl(302, 68%, 44%));
+    background: -o-linear-gradient(top bottom right,hwb(325 3% 53%),#700443,rgb(103, 1, 88));
+    background: -moz-linear-gradient(right,rgb(95, 3, 57),rgb(236, 12, 165),rgb(230, 52, 221));
+    background: linear-gradient(to right,rgb(221, 23, 122),rgb(255, 0, 234),rgb(116, 5, 122));
+    margin: 60px;
+}
+.title{
+    size:12px;
+    text-transform: capitalize;
+    text-align: center;
+    color: rgb(199, 26, 156);
+
+}
+.container{
+    width:50%;
+    height: 500px;
+    background: rgb(238, 218, 228);
+    border: 2px solid rgba(234, 226, 233, 0.903);
+    margin: 0 auto;
+}
+.container .left{
+    float: left;
+    width: 50%;
+    height: 500px;
+    box-sizing: border-box;
+     padding: 10px 30px 20px; 
+     position: relative;
+    
+    background-color: rgb(30, 7, 105);
+}
+.container .right{
+    float: right;
+    width: 50%;
+    height: 400px;
+     background: url("images/img2.jpg"); 
+    background-size: cover; 
+    box-sizing: border-box;
+}
+   /* .form-left{ 
+        width: 100%;
+        height: 400px;
+         padding:40px 20px ; 
+        box-sizing: border-box;  
+} */
+.left input[type="text"] , .left input[type="email"], .left input[type="number"]{
+    border: none;
+    border-top: 1px solid #111111;
+     outline: none; 
+    width: 60% ;
+      display: grid; 
+     justify-content: center;
+    padding: 10px;  
+    background-color:transparent;
+}
+ .left input[type="submit"]{
+    height:20px ;
+    color: #fff;
+    background: #252424;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto; 
+    margin: 20px;  
+
+}
+<!-- <div class="form">
+                                    <div class="piece">
+                                        <label for="Piece">Piece</label>
+                                        <input type="text" name="piece" id="piece" placeholder="$270"> 
+                                    </div>   
+                                    <div class="people">
+                                        <label for="People">People</label>
+                                        <input type="number" name="people" id="people">
+                                    </div>
+                                    <div class="name">
+                                        <label for="name">Name</label>
+                                         <input type="text" name="nom" id="nom" > 
+                                    </div>
+                                    <div class="email">
+                                        <label for="email" >Email</label>
+                                        <input type="email" name="Email" id="email">
+                                    </div>
+                                    <div class="phone">
+                                        <label for="phone" >Phone</label>
+                                        <input type="number" name="phone" id="phone">
+                                    </div>  
+                                    <div class="comment">
+                                        <label for="Comment">Comment</label>
+                                        <input type="text" id="comment" name="comment">
+                                    </div>
+                                    <div class="send">
+                                        <input type="submit" name="Send" value="Send">
+                                    </div>
+                                </div> -->
